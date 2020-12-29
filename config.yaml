@@ -3,6 +3,7 @@ subject: 'cs'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        sim2real: 3
+        robot: 2
+        reinforcement learning: 2
+        RL: 2
