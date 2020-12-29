@@ -92,7 +92,7 @@ def serch_keywords(id_list, keywords_dict):
     return results
 
 
-def send2slack(results, slack):
+def send2slack(results, slack, max_num=20):
     urls = results[0]
     titles = results[1]
     abstracts = results[2]
@@ -101,7 +101,7 @@ def send2slack(results, slack):
 
     # rank
     idxs_sort = np.argsort(scores)
-    idxs_sort = idxs_sort[::-1]
+    idxs_sort = idxs_sort[::-1][:max_num]
 
     # 通知
     star = '*'*120
