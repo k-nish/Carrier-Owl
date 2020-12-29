@@ -3,8 +3,9 @@ subject: 'cs'
 
 # 検索キーワード
 keywords:
+        simulat: 3
         sim2real: 3
-        robot: 2
-        reinforcement learning: 2
-        RL: 2
+        robot: 3
         transfer: 2
+        reinforcement learning: 1
+        RL: 1
