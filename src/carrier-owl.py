@@ -92,7 +92,7 @@ def serch_keywords(id_list, keywords_dict):
     return results
 
 
-def send2slack(results, slack, max_num=20):
+def send2slack(results, slack, max_num=5):
     urls = results[0]
     titles = results[1]
     abstracts = results[2]
